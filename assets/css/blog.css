@@ -1,4 +1,4 @@
-#blog h1,h2,h3,h4,h5,h6,p,ul,ol {
+#blog h1,#blog h2,#blog h3,#blog h4,#blog h5,#blog h6,#blog p,#blog ul,#blog ol {
     color: salmon;
 }
 

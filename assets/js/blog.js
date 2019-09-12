@@ -3,7 +3,7 @@ const id = function(id) {
 };
 
 let blog = id('blog');
-fetch('blogs/test.md')
+fetch('blogs/cpp1-1.md')
     .then(resp=>resp.text())
     .then(res=>{
         let parsed = marked(res);
