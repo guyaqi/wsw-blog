@@ -1,0 +1,50 @@
+.sidebar {
+    position: fixed;
+
+    width: 200px;
+    height: 100vh;
+
+    display: inline-flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    box-sizing: border-box;
+
+    flex-grow: 0;
+}
+
+#blog {
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    margin-left: 200px;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    flex-grow: 1;
+
+}
+
+.sidebar-header {
+    flex-grow: 0;
+}
+
+.sidebar-body {
+    flex-grow: 1;
+}
+
+.sidebar-footer {
+    flex-grow: 0;
+}
+
+ul.sidebar-list {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+ul.sidebar-list > li {
+    list-style: none;
+    padding: 1rem;
+}

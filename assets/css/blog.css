@@ -1,0 +1,40 @@
+#blog h1,h2,h3,h4,h5,h6,p,ul,ol {
+    color: salmon;
+}
+
+#blog hr {
+    border: 1px solid salmon;
+}
+
+#blog p>code {
+    color: salmon;
+    background-color: mistyrose;
+    border: 1px solid salmon;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#blog pre {
+    color: salmon;
+    background-color: mistyrose;
+    border: 1px solid salmon;
+    border-radius: 3px;
+
+    padding: 10px;
+}
+
+#blog a {
+    color: darkseagreen;
+    text-decoration: none;
+}
+
+#blog blockquote {
+    background-color: mistyrose;
+
+    border: 1px solid salmon;
+    border-left: 5px solid salmon;
+    border-radius: 3px;
+
+    padding-left: 1rem;
+    margin: 10px;
+}

@@ -1,0 +1,25 @@
+
+
+.bg-1 {
+     background-color: salmon;
+ }
+
+.bg-2 {
+    background-color: lightsalmon;
+}
+
+.bg-3 {
+    background-color: white;
+}
+
+.bg2-hover {
+    background-color: lightsalmon;
+}
+
+.bg2-hover:hover {
+    background-color: white;
+    color: lightsalmon
+}
+h1.blog-h1 {
+    color: salmon;
+}
