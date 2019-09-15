@@ -10,6 +10,7 @@
     padding-left: 2rem;
 }
 
+/* background */
 #blog p>code, #blog pre {
     color: salmon;
     background-color: mistyrose;
@@ -21,6 +22,16 @@
 #blog p>code, #blog pre>code {
     font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 }
+
+#blog pre{
+    overflow: auto;
+    word-wrap: normal;
+}
+#blog pre>code {
+    white-space: pre;
+}
+
+
 
 #blog a {
     color: darkseagreen;

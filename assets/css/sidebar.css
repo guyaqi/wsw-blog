@@ -13,7 +13,7 @@
     width: 200px;
     height: 100vh;
 
-    display: inline-flex;
+    display: none;
     flex-direction: column;
 
     overflow: hidden;
@@ -23,14 +23,13 @@
 
     user-select: none;
 
-    transition: linear 300ms;
 }
 
 #blog {
     overflow-x: hidden;
     overflow-y: auto;
 
-    height: 100vh;
+    min-height: 100vh;
 
     margin-left: 200px;
 

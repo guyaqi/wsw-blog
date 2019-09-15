@@ -1,3 +1,3 @@
 # 友站链接
 
-* [LeoJhon.Song](https://github.com/LeoJhonSong/)
+* [LeoJhon.Song](https://leojhonsong.github.io)

@@ -2,13 +2,16 @@ const sidebar = document.querySelector('.sidebar');
 const claw = document.querySelector('#claw');
 // const blog = document.querySelector('#blog');
 
-let hide = false;
+let hide = true;
 
 function layout() {
-
     let width = document.body.clientWidth;
     let height = document.body.clientHeight;
     let portrait = height > width;
+
+    // disable transition before adjust
+    console.log('layout called');
+
     if(portrait) {
         hideSidebar();
         sidebar.style.width = '100%';
@@ -27,6 +30,9 @@ function layout() {
         claw.removeEventListener('click', toggleSidebar);
     }
 
+    // enable transition after adjust
+    sidebar.style.transition = "linear 300ms";
+    sidebar.style.display = "inline-flex";
 }
 
 function hideSidebar() {
