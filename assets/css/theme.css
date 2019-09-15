@@ -14,6 +14,7 @@
 
 .bg2-hover {
     background-color: lightsalmon;
+    cursor: pointer;
 }
 
 .bg2-hover:hover {

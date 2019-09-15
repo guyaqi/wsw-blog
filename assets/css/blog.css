@@ -3,24 +3,23 @@
 }
 
 #blog hr {
-    border: 1px solid salmon;
+    border: 2px solid salmon;
 }
 
-#blog p>code {
+#blog ul,ol {
+    padding-left: 2rem;
+}
+
+#blog p>code, #blog pre {
     color: salmon;
     background-color: mistyrose;
-    border: 1px solid salmon;
+    border: none;
     border-radius: 3px;
     padding: 10px;
 }
 
-#blog pre {
-    color: salmon;
-    background-color: mistyrose;
-    border: 1px solid salmon;
-    border-radius: 3px;
-
-    padding: 10px;
+#blog p>code, #blog pre>code {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 }
 
 #blog a {

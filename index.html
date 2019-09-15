@@ -2,14 +2,23 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>万事屋</title>
+
+  <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+
   <link rel="stylesheet" href="./assets/css/normalize.css" >
   <link rel="stylesheet" href="./assets/css/sidebar.css" >
   <link rel="stylesheet" href="./assets/css/theme.css" >
   <link rel="stylesheet" href="./assets/css/common.css" >
   <link rel="stylesheet" href="./assets/css/blog.css" >
+
+  <meta name="theme-color" content="salmon">
+
 </head>
 <body>
+
+<img src="assets/img/toggleClaw.png" alt="" id="claw">
 
 <div class="sidebar text-white bg-2">
 
@@ -19,16 +28,17 @@
 
   <div class="sidebar-body ">
     <ul class="sidebar-list">
-      <li class="bg2-hover">主页</li>
-      <li class="bg2-hover">博客</li>
+      <li class="bg2-hover" id="go-home">主页</li>
+      <li class="bg2-hover" id="go-blog">博客</li>
+      <li class="bg2-hover" id="go-friends">友站</li>
     </ul>
   </div>
 
   <div class="sidebar-footer">
     <p class="text-center">
-      <span class="bg2-hover">Github</span>
+      <span class="bg2-hover" id="go-github">&nbsp;Github&nbsp;</span>
        |
-      <span class="bg2-hover">QQ</span>
+      <span class="bg2-hover" id="go-qq">&nbsp;QQ&nbsp;</span>
       <br>
       <small>Copyright Guyaqi</small>
     </p>
@@ -38,12 +48,19 @@
 
 
 <div id="blog">
-  <h1 class="blog-h1">主页</h1>
-  <p class="blog-p">万事屋的鸽子(我)，由于不喜欢使用那些乱七八糟的东西，准备自己写一个博客。</p>
+  <div style="height:100vh;display:flex;align-items: center;justify-content: space-around">
+    <h1>加载中,请稍候...</h1>
+  </div>
+
 </div>
 
 
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="assets/js/blog.js"></script>
+<script src="assets/js/layout.js"></script>
 </body>
 </html>
